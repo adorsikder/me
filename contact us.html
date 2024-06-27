@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ador | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/batman home.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ 
+
+
+    <!--Main-->
+    <main>
+        <section class="main">
+            
+            <section class="contact">
+                <div class="conten">
+                    <h2>Contact to Me</h2>
+                </div>
+                <div class="container">
+                    <div class="contactInfo">
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div class="text">
+                                    <h3>Phone</h3>
+                                    <p>01913156718 / 01873963943</p>
+                                </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="text">
+                                    <h3>E-mail</h3>
+                                    <p>adorsikder82@gmail.com</p>
+                                </div>
+                        </div>
+
+                    </div>
+
+                    <div class="contactForm">
+                        <form style="color: black;">
+                            <h2>Send Message</h2>
+                            <div class="inputbox">
+                                <input type="text" name="" required="required">
+                                <span>Full Name</span>
+                            </div>
+                            <div class="inputbox">
+                                <input type="text" name="" required="required">
+                                <span>E-mail</span>
+                            </div>
+                            <div class="inputbox">
+                                <textarea required="required" style="width: 100%;"></textarea>
+                                <p>Type your Message...</p>
+                            </div>
+                            <div class="inputbox">
+                                <input type="submit" name="" value="send">
+                                
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </section>
+
+            
+
+        </section>
+
+    </main>
+
+    <!--Main End-->
+
+    <nav class="navbar">
+        <ul class="sidebar">
+            <li class="close" onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="indox.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+        </ul>
+
+
+        <ul>
+            <li ><a href="indox.html"><img src="img/bat.png" alt=""></a></li>
+            <li class="hideOnMobile"><a href="indox.html">Home</a></li>
+            <li class="hideOnMobile"><a href="about.html">About</a></li>
+            <li class="hideOnMobile"><a href="service.html">Service</a></li>
+            <li class="hideOnMobile"><a href="projects.html">Projects</a></li>
+            <li class="hideOnMobile"><a href="contact us.html">Contact Us</a></li>
+            <li class="menu" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+    <script src="App.js"></script>
+</body>
+</html>
